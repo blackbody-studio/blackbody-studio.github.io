@@ -1,6 +1,6 @@
 ---
 title: Contact
-subtitle: Blackbody Studio would love to hear from you.
+subtitle:
 description:
 featured_image: /images/demo/demo-landscape.jpg
 ---
