@@ -20,7 +20,7 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 200
-  footer_tagline:
+  footer_tagline: 'tagline'
 
 grid_settings:
   overlay_opacity: 0.8
@@ -33,7 +33,7 @@ contact_settings:
   send_button_text: 'Send Message'
 
 social_settings:
-  facebook_url:
+  facebook_url: ''
   twitter_url: 'https://twitter.com'
   instagram_url: 'http://instagram.com'
   snapchat_url: ''
