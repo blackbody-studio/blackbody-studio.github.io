@@ -67,7 +67,7 @@ color_settings:
   text_dark_color: '#6C7A89'
   text_medium_color: '#ABB7B7'
   text_light_color: '#FFFFFF'
-  accent_color: '#E56001'
+  accent_color: '#43A3F3'
   # BLUE #43A3FE 
   # ORANGE #E56001 
   #
@@ -75,7 +75,7 @@ color_settings:
   border_color: '#dddddd'
   # overlay_background_color: '#F2784B'
   overlay_background_color: '#252525'
-  overlay_text_color: '#ABB7B7'
+  overlay_text_color: '#6C7A89'
   overlay_accent_color: '#FFFFFF'
   error_color: '#D64541'
 
