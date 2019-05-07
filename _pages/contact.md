@@ -8,4 +8,4 @@ featured_image: /images/demo/demo-landscape.jpg
 <!-- {% include contact-form.html %} -->
 
 ##### Phil
-Email me at [phil@blackbody.studio](mailto:phil@blackbody.studio).
+Email me at <a href="mailto:phil@blackbody.studio">phil@blackbody.studio</a>.
