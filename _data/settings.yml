@@ -77,7 +77,7 @@ color_settings:
   overlay_background_color: '#252525'
   overlay_text_color: '#6C7A89'
   overlay_accent_color: '#FFFFFF'
-  error_color: '#D64541'
+  error_color: '#E56001'
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">'
