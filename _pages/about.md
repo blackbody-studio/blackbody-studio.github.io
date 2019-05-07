@@ -1,6 +1,6 @@
 ---
 title: About
-subtitle: Blackbody Studio is boutique animation and visual effects studio in Calgary, Alberta.
+subtitle: Blackbody Studio is a VFX and Creative Content studio headquartered in in Calgary, Alberta, Canada.
 description: 
 featured_image: /images/demo/demo-landscape.jpg
 ---

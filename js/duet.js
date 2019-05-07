@@ -97,7 +97,7 @@
 			}
 
 			// If link is external
-			else if ( thisTarget.indexOf('http') >= 0 ) {
+			else if ( thisTarget.indexOf('http') >= 0 || thisTarget.indexOf('mailto') >= 0  ) {
 
 				// Go to the external link
 				window.open(thisTarget, '_blank');
