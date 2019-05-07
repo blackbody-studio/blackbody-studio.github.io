@@ -90,8 +90,14 @@
 			// Get the link target
 			var thisTarget = $(this).attr('href');
 
+			// If link is handled by some JS action – e.g. fluidbox
+			if ( $(this).is('.gallery__item__link') ) {
+				
+				// Let JS handle it
+			}
+
 			// If link is external
-			if ( thisTarget.indexOf('http') >= 0 ) {
+			else if ( thisTarget.indexOf('http') >= 0 ) {
 
 				// Go to the external link
 				window.open(thisTarget, '_blank');
@@ -117,11 +123,6 @@
 				$('.modal--signup').addClass('modal--on');
 			}
 
-			// If link is handled by some JS action – e.g. fluidbox
-			else if ( $(this).is('.gallery__item__link') ) {
-				
-				// Let JS handle it
-			}
 
 			// If link is internal
 			else {
