@@ -89,6 +89,7 @@
 
 			// Get the link target
 			var thisTarget = $(this).attr('href');
+			console.log(thisTarget);
 
 			// If link is handled by some JS action – e.g. fluidbox
 			if ( $(this).is('.gallery__item__link') ) {
