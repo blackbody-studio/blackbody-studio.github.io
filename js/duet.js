@@ -89,7 +89,6 @@
 
 			// Get the link target
 			var thisTarget = $(this).attr('href');
-			console.log(thisTarget);
 
 			// If link is handled by some JS action – e.g. fluidbox
 			if ( $(this).is('.gallery__item__link') ) {
@@ -98,7 +97,15 @@
 			}
 
 			// If link is external
-			else if ( thisTarget.indexOf('http') >= 0 || thisTarget.indexOf('mailto') >= 0  ) {
+			//   
+			else if ( thisTarget.indexOf('mailto') >= 0 ) {
+
+				// Go to the external link
+				window.location.href = thisTarget;
+
+			}
+
+			else if ( thisTarget.indexOf('http') >= 0 ) {
 
 				// Go to the external link
 				window.open(thisTarget, '_blank');
