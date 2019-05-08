@@ -23,16 +23,15 @@ culpa qui officia deserunt mollit anim id est laborum.
 
 ##### Credits
 
-###### Director:
-Phillip Thomas
-
-Production Company:
-
+*Director:*
+<p style="color:red;">Phillip Thomas</p>
 
 
 ---
 
 ##### Press
+
+Image links
 
 ---
 
