@@ -57,6 +57,7 @@ Here's a really neat custom feature we added – galleries:
 	<img src="/images/demo/demo-landscape.jpg">
 	<img src="/images/demo/demo-square.jpg">
 	<img src="/images/demo/demo-landscape-2.jpg">
+	<img src="/images/demo/2_post.png">
 </div>
 
 Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
