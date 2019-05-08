@@ -24,7 +24,7 @@ culpa qui officia deserunt mollit anim id est laborum.
 ##### Credits
 
 *Director:*
-<p style="color:white;">Phillip Thomas</p>
+<span style="color:white;">Phillip Thomas</span>
 
 
 ---
