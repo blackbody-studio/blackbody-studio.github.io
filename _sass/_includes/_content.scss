@@ -235,3 +235,23 @@
 .credit {
 	color: white;
 }
+
+.hero_image {
+
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay .thumbnail {
+  display: block;
+}
+
+.overlay .time {
+  position: absolute; z-index: 2;
+  right: 3px; bottom: 3px;
+  padding: 2px 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
