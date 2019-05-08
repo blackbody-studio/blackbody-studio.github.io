@@ -381,7 +381,6 @@
 	}
 
 	// Run functions on load
-	afterglow.init();
 	pageFunctions();
 
 
