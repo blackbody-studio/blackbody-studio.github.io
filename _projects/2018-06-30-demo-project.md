@@ -88,7 +88,7 @@ A nice little feature: the carousel only advances when it is in view, so your vi
 Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
 
 <a class="afterglow" href="#myvideo"> <img src="/images/demo/demo-landscape.jpg"> </a>
-<video id="myvideo" width="960" height="540">
+<video id="myvideo" width="960" height="540" data-overscale="false">
       <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/alrmsvaxp761k3b/code_flythrough.mp4" />
 </video>
 
