@@ -9,7 +9,6 @@ featured_image: '/images/demo/demo-square.jpg'
 <a class="afterglow" href="#dbvideo"> ![](https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg) </a>
 <video id="dbvideo" width="1280" height="720" data-overscale="false" poster="https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg">
   <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/50xxtlw1mcey9d0/afterglow_local_hd.mp4" data-quality="hd"/>
-  <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/50xxtlw1mcey9d0/afterglow_local_hd.mp4" data-quality="4k"/>
   <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/gznqdinn08zpu9w/afterglow_local.mp4" />
 </video>
 
@@ -29,8 +28,8 @@ culpa qui officia deserunt mollit anim id est laborum.
 ---
 
 #### PRESS
-+ *Cu ius nobis primis pericula. An ferri aliquam incorrupte has, at quidam veritus cum.*[News Outlet Name](https://reddit.com).
-+ *Erant possim ea quo, sed et alterum invidunt laboramus, exerci recusabo scriptorem id nam.*[Prominent Social Media Post](https://reddit.com).
++ *Cu ius nobis primis pericula. An ferri aliquam incorrupte has, at quidam veritus cum.* [News Outlet Name](https://reddit.com).
++ *Erant possim ea quo, sed et alterum invidunt laboramus, exerci recusabo scriptorem id nam.* [Prominent Social Media Post](https://reddit.com).
 
 ---
 
