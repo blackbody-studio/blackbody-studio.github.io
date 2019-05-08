@@ -209,9 +209,9 @@
 	}
 }
 
-/*.image-wrap img {
+.image-wrap img {
 	margin: 0 auto;
-}*/
+}
 
 .video {
 	position: relative;
@@ -234,32 +234,4 @@
 
 .credit {
 	color: white;
-}
-
-.hero_image {
-
-}
-
-.overlay {
-  position: relative;
-}
-
-.overlay-wrapper {
-  position: relative;
-  display: block;
-  /*max-width: 400px;*/
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.overlay .thumbnail {
-  display: block;
-}
-
-.time {
-  position: absolute; z-index: 2;
-  right: 3px; bottom: 3px;
-  padding: 2px 5px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
 }
