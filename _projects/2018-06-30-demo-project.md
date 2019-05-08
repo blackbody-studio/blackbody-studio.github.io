@@ -7,8 +7,8 @@ featured_image: '/images/demo/demo-square.jpg'
 ---
 <div class="image-wrap">
 <div class="overlay-wrapper">
-<div class="overlay"> <img src="https://homepages.cae.wisc.edu/~ece533/images/monarch.png" width="192" height="109" alt=""> </div>
-  <span class="time">12:10</span>
+<div class="overlay"> <img src="https://homepages.cae.wisc.edu/~ece533/images/monarch.png" width="192" height="109" alt="">
+  <span class="time">12:10</span> </div>
 </div>
 </div>
 
