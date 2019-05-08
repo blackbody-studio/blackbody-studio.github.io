@@ -105,6 +105,11 @@
 
 			}
 
+			else if ( thisTarget.indexOf('#myvideo') >= 0 ) {
+
+				// Go to the external link
+			}
+
 			else if ( thisTarget.indexOf('http') >= 0 ) {
 
 				// Go to the external link
