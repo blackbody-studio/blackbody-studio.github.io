@@ -93,6 +93,9 @@ Videos are an awesome way to show off your work in a more engaging and personal 
   <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/50xxtlw1mcey9d0/afterglow_local_hd.mp4" data-quality="hd"/>
 </video>
 
+Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
+
+
 <!-- <iframe src="https://player.vimeo.com/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe> -->
 <!-- https://www.dropbox.com/s/50xxtlw1mcey9d0/afterglow_local_hd.mp4?dl=0 -->
 <!-- https://www.dropbox.com/s/gznqdinn08zpu9w/afterglow_local.mp4?dl=0 -->
