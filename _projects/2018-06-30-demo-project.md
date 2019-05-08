@@ -25,6 +25,7 @@ culpa qui officia deserunt mollit anim id est laborum.
 
 *Director:*
 <span style="color:white;">Phillip Thomas</span>
+<span style="color:white;">Phillip Thomas</span>
 
 
 ---
