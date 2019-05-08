@@ -8,6 +8,8 @@ featured_image: '/images/demo/demo-square.jpg'
 
 ![](/images/demo/demo-landscape.jpg)
 
+<video class="afterglow" id="myvideo" width="1280" height="720" src="https://dl.dropboxusercontent.com/s/gznqdinn08zpu9w/afterglow_local.mp4" /></video>
+
 ## Demo content
 
 This page is a demo that shows everything you can do inside portfolio and blog posts.
