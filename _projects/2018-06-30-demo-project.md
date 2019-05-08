@@ -23,8 +23,7 @@ culpa qui officia deserunt mollit anim id est laborum.
 
 ##### Credits
 
-*Director:*
-<span style="color:white;">Phillip Thomas</span>
+<span style="font-family: Georgia; font-style: italic; font-variant: normal;"> Director:<span>
 <span style="color:white;">Phillip Thomas</span>
 
 
