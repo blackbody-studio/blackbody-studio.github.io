@@ -23,7 +23,8 @@ culpa qui officia deserunt mollit anim id est laborum.
 
 ##### Credits
 
-###### Director: Phillip Thomas
+###### Director:
+Phillip Thomas
 
 Production Company:
 
