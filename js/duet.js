@@ -70,6 +70,7 @@
 
 				// Run page functions
 				pageFunctions();
+				afterglow.init();	
 
 			}, transitionTime);
 
