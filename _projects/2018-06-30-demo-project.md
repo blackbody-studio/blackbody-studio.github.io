@@ -28,9 +28,9 @@ culpa qui officia deserunt mollit anim id est laborum.
 ---
 
 #### PRESS
-+ Press outlet headline.
-<span style="color:white;">[*Outlet name.*](https://www.google.com) </span>
-+ Press outlet 1. [*Another Outlet Name.*](https://reddit.com)</span>
++ *Press outlet flattering headline.* [**Another Outlet Name.**](https://reddit.com)
++ *Another press outlet flattering headline.* [Another Outlet Name.](https://reddit.com)
++ [*Another press outlet flattering headline.*](https://reddit.com) **Another Outlet Name.**
 + Press outlet 2
 + Another thing
 
