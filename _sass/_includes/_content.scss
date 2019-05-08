@@ -245,6 +245,15 @@
   margin: 0 auto;
 }
 
+.center-aligned {
+  display: box;
+  display: flex;
+  box-align: center;
+  align-items: center;
+  box-pack: center;
+  justify-content: center;
+}
+
 .overlay .thumbnail {
   display: block;
 }
