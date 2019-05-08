@@ -28,11 +28,13 @@ culpa qui officia deserunt mollit anim id est laborum.
 ---
 
 #### PRESS
-Image links
++ Press outlet 1
++ Press outlet 2
++ Another thing
 
 ---
 
-### STILLS
+#### STILLS
 <div class="gallery" data-columns="3">
 	<img src="/images/demo/demo-portrait.jpg">
 	<img src="/images/demo/demo-landscape.jpg">
