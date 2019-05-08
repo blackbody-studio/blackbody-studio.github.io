@@ -5,10 +5,11 @@ date: 2018-06-30 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
 featured_image: '/images/demo/demo-square.jpg'
 ---
-
+<div class="image-wrap">
 <div class="overlay">
   <img class="thumbnail" src="https://homepages.cae.wisc.edu/~ece533/images/monarch.png" width="192" height="109" alt="">
   <span class="time">12:10</span>
+</div>
 </div>
 
 ![](https://dl.dropboxusercontent.com/s/6rf2ff0pc3dk4bm/foo.pdf)
