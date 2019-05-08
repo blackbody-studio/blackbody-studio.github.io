@@ -6,9 +6,11 @@ description: This page is a demo that shows everything you can do inside portfol
 featured_image: '/images/demo/demo-square.jpg'
 ---
 
-![](/images/demo/demo-landscape.jpg)
-
-<video class="afterglow" id="myvideo" width="1280" height="720" src="https://dl.dropboxusercontent.com/s/gznqdinn08zpu9w/afterglow_local.mp4" /></video>
+<a class="afterglow" href="#dbvideo"> ![](https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg) </a>
+<video id="dbvideo" width="1280" height="720" data-overscale="false" poster="https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg">
+  <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/gznqdinn08zpu9w/afterglow_local.mp4" />
+  <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/50xxtlw1mcey9d0/afterglow_local_hd.mp4" data-quality="hd"/>
+</video>
 
 ## Demo content
 
@@ -84,21 +86,3 @@ A nice little feature: the carousel only advances when it is in view, so your vi
 	<img src="/images/demo/demo-landscape.jpg">
 	<img src="/images/demo/demo-landscape-2.jpg">
 </div>
-
-### What about videos?
-
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
-
-<a class="afterglow" href="#dbvideo"> ![](https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg) </a>
-<video id="dbvideo" width="1280" height="720" data-overscale="false" poster="https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg">
-  <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/gznqdinn08zpu9w/afterglow_local.mp4" />
-  <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/50xxtlw1mcey9d0/afterglow_local_hd.mp4" data-quality="hd"/>
-</video>
-
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
-
-
-<!-- <iframe src="https://player.vimeo.com/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe> -->
-<!-- https://www.dropbox.com/s/50xxtlw1mcey9d0/afterglow_local_hd.mp4?dl=0 -->
-<!-- https://www.dropbox.com/s/gznqdinn08zpu9w/afterglow_local.mp4?dl=0 -->
-<!-- https://www.dropbox.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg?dl=0 -->
