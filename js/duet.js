@@ -106,9 +106,9 @@
 
 			}
 
-			else if ( thisTarget.indexOf('#myvideo') >= 0 ) {
+			else if ( thisTarget.indexOf('#dbvideo') >= 0 ) {
 
-				// Go to the external link
+				// Let afterglow handle it
 			}
 
 			else if ( thisTarget.indexOf('http') >= 0 ) {
