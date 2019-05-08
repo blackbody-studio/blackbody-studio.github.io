@@ -28,11 +28,8 @@ culpa qui officia deserunt mollit anim id est laborum.
 ---
 
 #### PRESS
-+ *Press outlet flattering headline.* [**Another Outlet Name.**](https://reddit.com)
-+ *Another press outlet flattering headline.* [Another Outlet Name.](https://reddit.com)
-+ [*Another press outlet flattering headline.*](https://reddit.com) **Another Outlet Name.**
-+ Press outlet 2
-+ Another thing
++ *Cu ius nobis primis pericula. An ferri aliquam incorrupte has, at quidam veritus cum.* [News Outlet Name.](https://reddit.com)
++ *Erant possim ea quo, sed et alterum invidunt laboramus, exerci recusabo scriptorem id nam.* [Prominent Social Media Post.](https://reddit.com)
 
 ---
 
