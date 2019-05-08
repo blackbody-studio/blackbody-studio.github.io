@@ -10,6 +10,9 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
+  selected_projects:
+    output: true
+    permalink: /selected/:slug
 
 defaults:
   -
@@ -33,6 +36,12 @@ defaults:
     scope:
       path: ""
       type: "projects"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "selected_projects"
     values:
       layout: "project"
 
