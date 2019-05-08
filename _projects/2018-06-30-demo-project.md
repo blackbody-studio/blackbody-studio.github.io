@@ -5,9 +5,14 @@ date: 2018-06-30 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
 featured_image: '/images/demo/demo-square.jpg'
 ---
-<a class="afterglow" href="#dbvideo"> ![](https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg)
+<div class="image-wrap">
+<div class="overlay-wrapper">
+<div class="overlay"> <img src="https://homepages.cae.wisc.edu/~ece533/images/monarch.png" width="192" height="109" alt=""> </div>
   <span class="time">12:10</span>
-  </a>
+</div>
+</div>
+
+<a class="afterglow" href="#dbvideo"> ![](https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg) </a>
 <video id="dbvideo" width="1280" height="720" data-overscale="false" poster="https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg">
   <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/50xxtlw1mcey9d0/afterglow_local_hd.mp4" data-quality="hd"/>
   <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/gznqdinn08zpu9w/afterglow_local.mp4" />
