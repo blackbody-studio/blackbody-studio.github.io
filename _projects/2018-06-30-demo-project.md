@@ -1,5 +1,5 @@
 ---
-title: 'Demo Project'
+title: 'PROJECT OF A LIFETIME'
 subtitle: 'This is a demo'
 date: 2018-06-30 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
@@ -18,19 +18,21 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
 culpa qui officia deserunt mollit anim id est laborum.
+
 ---
-##### Credits
+
+#### CREDITS
 <span style="font-family: Georgia; font-style: italic; font-variant: normal;"> Director:</span>
 <span style="color:white;">**Phillip Thomas**</span>
----
-##### Press
 
+---
+
+#### PRESS
 Image links
 
 ---
 
-### Stills
-
+### STILLS
 <div class="gallery" data-columns="3">
 	<img src="/images/demo/demo-portrait.jpg">
 	<img src="/images/demo/demo-landscape.jpg">
