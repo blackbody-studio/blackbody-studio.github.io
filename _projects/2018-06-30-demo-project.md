@@ -29,11 +29,11 @@ culpa qui officia deserunt mollit anim id est laborum.
 ---
 
 #### PRESS
-+ *Cu ius nobis primis pericula. An ferri aliquam incorrupte has, at quidam veritus cum.*
-[News Outlet Name.](https://reddit.com)
++ *Cu ius nobis primis pericula. An ferri aliquam incorrupte has, at quidam veritus cum.*[News Outlet Name.]
+(https://reddit.com)
 
-+ *Erant possim ea quo, sed et alterum invidunt laboramus, exerci recusabo scriptorem id nam.*
-[Prominent Social Media Post.](https://reddit.com)
++ *Erant possim ea quo, sed et alterum invidunt laboramus, exerci recusabo scriptorem id nam.*[Prominent Social Media Post.]
+(https://reddit.com)
 
 ---
 
@@ -46,4 +46,3 @@ culpa qui officia deserunt mollit anim id est laborum.
 	<img src="/images/demo/2_post.png">
 	<img src="/images/demo/demo-square.jpg">
 </div>
-
