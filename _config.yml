@@ -59,7 +59,7 @@ plugins:
   - jekyll-sitemap
 
 paginate: 3
-paginate_path: "/project/page:num/"
+paginate_path: "/commissioned/page:num/"
 
 gallery_types:
   carousel: Carousel
