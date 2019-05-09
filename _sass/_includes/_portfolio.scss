@@ -12,12 +12,6 @@
 	
 }
 
-.portfolio-wrap:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
 .portfolio-item {
 	position: relative;
 	padding: $grid-spacing/2;
@@ -100,4 +94,17 @@
 	@include mq(laptop) {
 		font-size: $grid-item-subtitle-large;
 	}
+}
+
+.pagination {
+
+}
+
+.pagination__prev {
+	float: left;
+	margin-right: 10px;
+}
+
+.pagination__next {
+	float: left;
 }
