@@ -21,40 +21,47 @@ featured_image: /images/social.jpg
 
 </section>
 
-{% capture list %}
-		{% for project in site.projects reversed %}
-
-		<!-- <div class="portfolio-item portfolio-item-20"> -->
-
-			<a class="portfolio-item__link" href="{{ project.url }}">
-
-				<div class="portfolio-item__image">
-					<img src="{{ project.featured_image  }}" alt="{{ project.title }}">
-				</div>
-
-				<div class="portfolio-item__content">
-					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">{{ project.title }}</h2>
-						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
-					</div>
-				</div>
-
-			</a>
-
-		<!-- </div> -->
-		{% unless forloop.last %}^{% endunless %}
-		{% endfor %}
-{% endcapture %}
-{% assign p_list = list | split: "^" %}
-
-<!-- create javascript array of strings -->
 <script>
-var j_list = [];
-{% for p_item in p_list %}
-var item = document.createElement("div");
-item.className = 'portfolio-item portfolio-item-20';
-item.innerHTML = "{{p_item}}";
-j_list.push(item);
-console.log(j_list);
-{% endfor %}
+	var js_list = [];
+	{% for project in site.projects reversed %}
+		var item = document.createElement("div");
+		item.className = 'portfolio-item portfolio-item-20';
+
+		var item_a = document.createElement("a");
+		item_a.setAttribute("class", "portfolio-item__link");
+		item_a.setAttribute("href", "{{ project.url }}");
+		item.appendChild(item_a);
+
+		var item_image = document.createElement("div");
+		item_image.setAttribute("class", "portfolio-item__image");
+		item_a.appendChild(item_image);
+
+		var item_img = document.createElement("img");
+		item_img.setAttribute("src", "{{ project.featured_image }}");
+		item_img.setAttribute("alt", "{{ project.title }}");
+		item_image.appendChild(item_img);
+
+		var item_content = document.createElement("div");
+		item_content.setAttribute("class", "portfolio-item__content");
+		item_a.appendChild(item_content);
+
+		var item_info = document.createElement("div");
+		item_info.setAttribute("class", "portfolio-item__info");
+		item_content.appendChild(item_info);
+
+		var item_title = document.createElement("h2");
+		item_title.setAttribute("class", "portfolio-item__title");
+		item_title.innerHTML = "{{ project.title }}";
+		item_info.appendChild(item_title);
+
+		var item_subtitle = document.createElement("p");
+		item_subtitle.setAttribute("class", "portfolio-item__subtitle");
+		item_subtitle.innerHTML = "{{ project.subtitle }}";
+		item_info.appendChild(item_subtitle);
+		
+		js_list.push(item);
+
+		{% endfor %}
+
+	console.log(js_list);
 </script>
