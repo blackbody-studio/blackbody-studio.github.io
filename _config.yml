@@ -10,7 +10,7 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
-  featured_projects:
+  featured:
     output: true
     permalink: /featured/:slug
 
