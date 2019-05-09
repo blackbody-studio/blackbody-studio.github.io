@@ -179,10 +179,6 @@
 		$('.page__content').find('img:first').imagesLoaded( function() {
 	
 			// Portfolio grid layout
-			var $grid = $('.portfolio-wrap').masonry({
-				itemSelector: '.portfolio-item',
-				transitionDuration: 0
-			});
 
 			// $('.portfolio-wrap').imagesLoaded( function() {
 			// 	$('.portfolio-wrap').masonry({
@@ -458,7 +454,11 @@
 
 	});
 
-	// var js_list = [];
+	var js_list = [];
+	var $grid = $('.portfolio-wrap').masonry({
+		itemSelector: '.portfolio-item',
+		transitionDuration: 0
+	});
 
 	$('.append-button').on( 'click', function() {
 	  var $elems = $( js_list );
