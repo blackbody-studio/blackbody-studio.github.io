@@ -11,17 +11,14 @@ featured_image: /images/social.jpg
 
 		<h1>A comprehensive look at our work</h1>
 
+		<ul>
+			{% for post in site.posts %}
+				<li>
+					<a href="{{ post.url }}">{{ post.title }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+
 	</div>
 
-</section>
-
-<section class="portfolio">
-		<h1>A comprehensive look at our work</h1>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
 </section>
