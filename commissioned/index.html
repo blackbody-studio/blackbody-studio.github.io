@@ -17,7 +17,11 @@ featured_image: /images/social.jpg
 <section class="portfolio">
 
 	<div class="content-wrap portfolio-wrap">
+	</div>
 
+</section>
+
+{% capture list %}
 		{% for project in site.projects reversed %}
 
 		<div class="portfolio-item portfolio-item-20">
@@ -38,9 +42,17 @@ featured_image: /images/social.jpg
 			</a>
 
 		</div>
+		{% unless forloop.last %}^{% endif %}
+		{% endunless %}
+{% endcapture %}
+{% assign p_list = list | split: "^" %}
 
-		{% endfor %}
-
-	</div>
-
-</section>
+<!-- create javascript array of strings -->
+<script>
+var j_list = []
+{% for p_item in p_list %}
+var item = document.createElement("div");
+item.innerHTML = p_item
+j_list.push(item);
+{% endfor %}
+</script>
