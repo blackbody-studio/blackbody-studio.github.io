@@ -106,7 +106,7 @@
 
 			}
 
-			else if ( thisTarget.indexOf('#dbvideo') >= 0 ) {
+			else if ( thisTarget.indexOf('#herovideo') >= 0 || thisTarget.indexOf('#localvideo') >= 0 ) {
 
 				// Let afterglow handle it
 			}
