@@ -42,8 +42,8 @@ featured_image: /images/social.jpg
 			</a>
 
 		</div>
-		{% if forloop.last %}^{% endif %}
-		{% endunless %}
+		{% unless forloop.last %}^{% endunless %}
+		{% endfor %}
 {% endcapture %}
 {% assign p_list = list | split: "^" %}
 
