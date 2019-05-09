@@ -31,13 +31,13 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "projects"
+      layout: "project"
   -
     scope:
       path: ""
-      type: "experimentals"
+      type: "experiments"
     values:
-      layout: "posts"
+      layout: "post"
   -
     scope:
       path: ""
