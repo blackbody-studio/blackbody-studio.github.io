@@ -186,6 +186,10 @@
 			// 		transitionDuration: 0
 			// 	});
 			// });
+			var $elems = $( js_list.slice(0,group_size));
+			$grid.append( $elems ).masonry( 'appended', $elems );
+			group_idx++;
+
 
 			// Blog grid layout
 			$('.blog-wrap').imagesLoaded( function() {
@@ -461,7 +465,7 @@
 	});
 
 	$('.append-button').on( 'click', function() {
-	  var $elems = $( js_list[next_post] );
+	  var $elems = $( js_list.slice(group_idx*group_size, (group_idx+1)*group_size));
 	  $grid.append( $elems ).masonry( 'appended', $elems );
 	  next_post++;
 	});
