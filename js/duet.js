@@ -458,7 +458,7 @@
 
 	});
 
-	var js_list = [];
+	// var js_list = [];
 
 	$('.append-button').on( 'click', function() {
 	  var $elems = $( js_list );
