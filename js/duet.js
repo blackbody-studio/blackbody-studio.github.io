@@ -454,7 +454,6 @@
 
 	});
 
-	var js_list = [];
 	var $grid = $('.portfolio-wrap').masonry({
 		itemSelector: '.portfolio-item',
 		transitionDuration: 0
@@ -468,6 +467,6 @@
 	console.log(js_list);
 
 	
-	
-	
 }(jQuery));
+	var js_list = [];
+	
