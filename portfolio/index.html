@@ -14,7 +14,9 @@ featured_image: /images/social.jpg
 		<ul>
 			{% for project in site.posts reversed %}
 				<li>
-					<a href="{{ project.url }}">{{ project.title }} - {{ project.date | date: '%B %d, %Y' }}</a>
+					<a href="{{ project.url }}">
+						<img src="{{project.featured_image}}">
+						{{ project.title }} - {{ project.date | date: '%B %d, %Y' }}</a>
 				</li>
 			{% endfor %}
 		</ul>
