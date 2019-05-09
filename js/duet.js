@@ -175,28 +175,6 @@
 
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Show content
 
-		if ($(".grid-sizer-20").length > 0){
-
-		
-			var $grid = $('.portfolio-wrap').masonry({
-				itemSelector: '.portfolio-item',
-				columnWidth: '.grid-sizer-20',
-				transitionDuration: 0
-			});
-
-			var $elems = $( js_list.slice(0,group_size));
-			$grid.append( $elems ).masonry( 'appended', $elems );
-			group_idx++;
-
-
-			$('.append-button').on( 'click', function() {
-			  var $elems = $( js_list.slice(group_idx*group_size, (group_idx+1)*group_size));
-			  $grid.append( $elems ).masonry( 'appended', $elems );
-			  group_idx++;
-			});
-		}
-		
-
 		// Wait until first image has loaded
 		$('.page__content').find('img:first').imagesLoaded( function() {
 	
