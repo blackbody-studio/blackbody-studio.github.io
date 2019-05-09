@@ -457,7 +457,7 @@
 	var $grid = $('.portfolio-wrap').masonry({
 		itemSelector: '.portfolio-item',
 		transitionDuration: 0,
-		columnWidth: '.grid-sizer'
+		columnWidth: '.grid-sizer-20'
 	});
 
 	$('.append-button').on( 'click', function() {
