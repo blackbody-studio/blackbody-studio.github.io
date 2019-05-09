@@ -9,7 +9,7 @@ collections:
     permalink: /experimental/:slug
   projects:
     output: true
-    permalink: /project/:slug
+    permalink: /commissioned/:slug
   featured:
     output: true
     permalink: /featured/:slug
