@@ -10,13 +10,10 @@ featured_image: /images/social.jpg
 	<div class="wrap">
 
 		<h1>A comprehensive look at our work</h1>
-
 		<ul>
 			{% for project in site.posts %}
 				<li>
-					<a href="{{ project.url }}">
-						<img src="{{project.featured_image}}">
-						{{ project.title }} - {{ project.date | date: '%B %d, %Y' }}</a>
+					<a href="{{ project.url }}"> {{ project.title }} - {{ project.date | date: '%B %d, %Y' }}</a>
 				</li>
 			{% endfor %}
 		</ul>
