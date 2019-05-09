@@ -12,7 +12,7 @@ featured_image: /images/social.jpg
 		<h1>A comprehensive look at our work</h1>
 
 		<ul>
-			{% for project in site.posts reversed %}
+			{% for project in site.posts %}
 				<li>
 					<a href="{{ project.url }}">
 						<img src="{{project.featured_image}}">
