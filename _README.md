@@ -134,7 +134,7 @@ This is your website home page. You can edit some details in the Front Matter at
 
 `title` – this sets the page title, which shows up in the browser's title bar and on search engine results, social shares etc.
 `description` – this sets the page meta description, which shows up on search engine results, social shares etc.
-`featured_image` – this sets the page meta image, which shows up on social shares.
+`hero_image` – this sets the page meta image, which shows up on social shares.
 
 Below the Front Matter is the code for the page. You should edit this to set your title and intro text. Hint - the main <h1> tag respects line breaks on tablet size screens and larger. This is useful if you want to prevent typographic widows.
 

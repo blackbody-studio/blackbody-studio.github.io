@@ -3,15 +3,15 @@ title: 'CLIENT'
 subtitle: 'Project Title'
 date: 2018-06-30 00:00:00
 description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-featured_image: '/images/demo/demo-square.jpg'
+hero_image: '/images/demo/demo-square.jpg'
 type: 'Commercial'
 ---
 
-<a class="afterglow" href="#dbvideo"> ![](https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg) </a>
+<!-- <a class="afterglow" href="#dbvideo"> ![](https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg) </a>
 <video id="dbvideo" width="1280" height="720" data-overscale="false" poster="https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg">
   <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/50xxtlw1mcey9d0/afterglow_local_hd.mp4" data-quality="hd"/>
   <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/gznqdinn08zpu9w/afterglow_local.mp4" />
-</video>
+</video> -->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 

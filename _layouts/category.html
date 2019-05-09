@@ -18,9 +18,9 @@ autopages:
 
 				<div class="blog-post__wrap">
 
-					{% if post.featured_image %}
-					<a href="{{ post.url }}" class="blog-post__image" style="background-image: url('{{ post.featured_image  }}');">
-						<img src="{{ post.featured_image }}" alt="{{ post.title }}" class="blog-post__image__img">
+					{% if post.hero_image %}
+					<a href="{{ post.url }}" class="blog-post__image" style="background-image: url('{{ post.hero_image  }}');">
+						<img src="{{ post.hero_image }}" alt="{{ post.title }}" class="blog-post__image__img">
 					</a>
 					{% endif %}
 
