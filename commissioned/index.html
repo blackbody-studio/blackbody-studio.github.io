@@ -24,7 +24,7 @@ featured_image: /images/social.jpg
 {% capture list %}
 		{% for project in site.projects reversed %}
 
-		<div class="portfolio-item portfolio-item-20">
+		<!-- <div class="portfolio-item portfolio-item-20"> -->
 
 			<a class="portfolio-item__link" href="{{ project.url }}">
 
@@ -41,7 +41,7 @@ featured_image: /images/social.jpg
 
 			</a>
 
-		</div>
+		<!-- </div> -->
 		{% unless forloop.last %}^{% endunless %}
 		{% endfor %}
 {% endcapture %}
@@ -52,7 +52,8 @@ featured_image: /images/social.jpg
 var j_list = [];
 {% for p_item in p_list %}
 var item = document.createElement("div");
-item.innerHTML = p_item;
+item.className = 'portfolio-item portfolio-item-20';
+item.innerHTML = "{{p_item}}";
 j_list.push(item);
 console.log(j_list);
 {% endfor %}
