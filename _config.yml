@@ -7,7 +7,7 @@ collections:
   posts:
     output: true
     permalink: /commissioned/:slug
-  projects:
+  experiments:
     output: true
     permalink: /experimental/:slug
   featured:
@@ -31,13 +31,13 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "projects"
   -
     scope:
       path: ""
-      type: "projects"
+      type: "experimentals"
     values:
-      layout: "project"
+      layout: "posts"
   -
     scope:
       path: ""
@@ -58,7 +58,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 6
+paginate: 2
 paginate_path: "/commissioned/page:num/"
 
 gallery_types:
