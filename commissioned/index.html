@@ -20,7 +20,7 @@ featured_image: /images/social.jpg
 
 		{% assign maxProj = 5 %}
 		{% assign counter = 0 %}
-		{% for project in site.projects reversed limit:4 %}
+		{% for project in site.projects reversed limit:maxProj %}
 
 		<div class="portfolio-item portfolio-item-20">
 
