@@ -58,8 +58,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 6
-paginate_path: "/experimental/page:num/"
+paginate: 3
+paginate_path: "/project/page:num/"
 
 gallery_types:
   carousel: Carousel

@@ -17,10 +17,7 @@ featured_image: /images/social.jpg
 <section class="portfolio">
 
 	<div class="content-wrap portfolio-wrap">
-
-		{% assign maxProj = 5 %}
-		{% assign counter = 0 %}
-		{% for project in site.projects reversed limit:maxProj %}
+		{% for project in paginator.projects%}
 
 		<div class="portfolio-item portfolio-item-20">
 
@@ -40,15 +37,27 @@ featured_image: /images/social.jpg
 			</a>
 
 		</div>
-<!--         {% assign counter = counter | plus: 1 %}
-		{% if counter == maxPost %}
-            {% break %} {% comment %}exit the for loop{% endcomment %}
-        {% endif %}
- -->
 		{% endfor %}
 
 	</div>
 
-	<p><center><button class="append-button">Append new items</button></center></p>
+</section>
+
+{% if paginator.total_pages > 1 %}
+
+<section class="pagination">
+
+	<div class="wrap">
+
+		{% if paginator.previous_page %}
+		<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="button button--light pagination__prev"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Projects</span></a>
+		{% endif %}
+		{% if paginator.next_page %}
+		<a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="button button--light pagination__next"><span>Older Projects</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+		{% endif %}
+
+	</div>
 
 </section>
+
+{% endif %}
