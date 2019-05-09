@@ -455,9 +455,9 @@
 	});
 
 	var $grid = $('.portfolio-wrap').masonry({
-		itemSelector: '.portfolio-item',
-		transitionDuration: 0,
-		columnWidth: '.grid-sizer-20'
+		columnWidth: '.grid-sizer-20',
+		itemSelector: '.portfolio-item'
+		// transitionDuration: 0,
 	});
 
 	$('.append-button').on( 'click', function() {
