@@ -174,22 +174,17 @@
 
 
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Show content
-
 		// Wait until first image has loaded
 		$('.page__content').find('img:first').imagesLoaded( function() {
 	
 			// Portfolio grid layout
 
-			// $('.portfolio-wrap').imagesLoaded( function() {
-			// 	$('.portfolio-wrap').masonry({
-			// 		itemSelector: '.portfolio-item',
-			// 		transitionDuration: 0
-			// 	});
-			// });
-			var $elems = $( js_list.slice(0,group_size));
-			$grid.append( $elems ).masonry( 'appended', $elems );
-			group_idx++;
-
+			$('.portfolio-wrap').imagesLoaded( function() {
+				$('.portfolio-wrap').masonry({
+					itemSelector: '.portfolio-item',
+					transitionDuration: 0
+				});
+			});
 
 			// Blog grid layout
 			$('.blog-wrap').imagesLoaded( function() {
@@ -458,20 +453,6 @@
 
 	});
 
-	var $grid = $('.portfolio-wrap').masonry({
-		itemSelector: '.portfolio-item',
-		columnWidth: '.grid-sizer-20',
-		transitionDuration: 0
-	});
 
-	$('.append-button').on( 'click', function() {
-	  var $elems = $( js_list.slice(group_idx*group_size, (group_idx+1)*group_size));
-	  $grid.append( $elems ).masonry( 'appended', $elems );
-	  next_post++;
-	});
-
-	console.log(js_list);
-
-	
 }(jQuery));
 	
