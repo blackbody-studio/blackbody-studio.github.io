@@ -468,5 +468,4 @@
 
 	
 }(jQuery));
-	var js_list = [];
 	
