@@ -58,7 +58,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 16
+paginate: 4
 paginate_path: "/commissioned/page:num/"
 
 gallery_types:
