@@ -6,10 +6,10 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /commissioned/:slug
+    permalink: /experimental/:slug
   projects:
     output: true
-    permalink: /experimental/:slug
+    permalink: /project/:slug
   featured:
     output: true
     permalink: /featured/:slug
@@ -31,13 +31,13 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "project"
+      layout: "post"
   -
     scope:
       path: ""
       type: "projects"
     values:
-      layout: "posts"
+      layout: "project"
   -
     scope:
       path: ""
@@ -58,8 +58,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 3
-paginate_path: "/commissioned/page:num/"
+paginate: 6
+paginate_path: "/eperimental/page:num/"
 
 gallery_types:
   carousel: Carousel
