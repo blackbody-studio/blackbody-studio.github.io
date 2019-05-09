@@ -12,6 +12,12 @@
 	
 }
 
+.portfolio-wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .portfolio-item {
 	position: relative;
 	padding: $grid-spacing/2;
