@@ -1,3 +1,4 @@
+<script>
 	var js_list = [];
 	var group_idx = 0;
 	var group_size = 3;
@@ -62,3 +63,4 @@
 	});
 
 	}(jQuery));
+</script>
