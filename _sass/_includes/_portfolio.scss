@@ -12,18 +12,18 @@
 	
 }
 
+.portfolio-item {
+	position: relative;
+	padding: $grid-spacing/2;
+	float: left;
+	width: 50%;
+}
+
 .portfolio-item-20 {
 	position: relative;
 	padding: $grid-spacing/2;
 	float: left;
 	width: 20%;
-}
-
-.portfolio-item-50 {
-	position: relative;
-	padding: $grid-spacing/2;
-	float: left;
-	width: 50%;
 }
 
 .portfolio-item__link {
