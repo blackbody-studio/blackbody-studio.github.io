@@ -20,7 +20,7 @@ featured_image: /images/social.jpg
 
 		{% assign maxProj = 5 %}
 		{% assign counter = 0 %}
-		{% for project in site.projects reversed %}
+		{% for project in site.projects reversed limit:4 %}
 
 		<div class="portfolio-item portfolio-item-20">
 
@@ -40,11 +40,11 @@ featured_image: /images/social.jpg
 			</a>
 
 		</div>
-        {% assign counter = counter | plus: 1 %}
+<!--         {% assign counter = counter | plus: 1 %}
 		{% if counter == maxPost %}
             {% break %} {% comment %}exit the for loop{% endcomment %}
         {% endif %}
-
+ -->
 		{% endfor %}
 
 	</div>
