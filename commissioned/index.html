@@ -24,7 +24,7 @@ featured_image: /images/social.jpg
 </section>
 
 <script>
-	var js_list = [];
+	// var js_list = [];
 	{% for project in site.projects reversed %}
 		var item = document.createElement("div");
 		item.className = 'portfolio-item portfolio-item-20';
@@ -63,12 +63,12 @@ featured_image: /images/social.jpg
 		
 		js_list.push(item);
 
-		{% endfor %}
+	{% endfor %}
 
-		$('.append-button').on( 'click', function() {
-		  var $elems = $( js_list );
-		  $content-wrap.append( $elems ).masonry( 'appended', $elems );
-		});
+		// $('.append-button').on( 'click', function() {
+		//   var $elems = $( js_list );
+		//   $grid.append( $elems ).masonry( 'appended', $elems );
+		// });
 
 	console.log(js_list);
 </script>

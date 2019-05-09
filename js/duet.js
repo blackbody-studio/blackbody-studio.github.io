@@ -179,12 +179,17 @@
 		$('.page__content').find('img:first').imagesLoaded( function() {
 	
 			// Portfolio grid layout
-			$('.portfolio-wrap').imagesLoaded( function() {
-				$('.portfolio-wrap').masonry({
-					itemSelector: '.portfolio-item',
-					transitionDuration: 0
-				});
+			var $grid = $('.portfolio-wrap').masonry({
+				itemSelector: '.portfolio-item',
+				transitionDuration: 0
 			});
+
+			// $('.portfolio-wrap').imagesLoaded( function() {
+			// 	$('.portfolio-wrap').masonry({
+			// 		itemSelector: '.portfolio-item',
+			// 		transitionDuration: 0
+			// 	});
+			// });
 
 			// Blog grid layout
 			$('.blog-wrap').imagesLoaded( function() {
@@ -452,6 +457,16 @@
 		}
 
 	});
+
+	var js_list = [];
+
+	$('.append-button').on( 'click', function() {
+	  var $elems = $( js_list );
+	  $grid.append( $elems ).masonry( 'appended', $elems );
+	});
+
+	console.log(js_list);
+
 	
 	
 	
