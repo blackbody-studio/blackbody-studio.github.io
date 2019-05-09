@@ -460,8 +460,9 @@
 	});
 
 	$('.append-button').on( 'click', function() {
-	  var $elems = $( js_list );
+	  var $elems = $( js_list[next_post] );
 	  $grid.append( $elems ).masonry( 'appended', $elems );
+	  next_post++;
 	});
 
 	console.log(js_list);

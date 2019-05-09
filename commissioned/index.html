@@ -25,6 +25,7 @@ featured_image: /images/social.jpg
 
 <script>
 	var js_list = [];
+	var next_post = 0;
 	{% for project in site.projects reversed %}
 		var item = document.createElement("div");
 		item.className = 'portfolio-item portfolio-item-20';
