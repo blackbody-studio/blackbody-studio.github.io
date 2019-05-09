@@ -19,6 +19,8 @@ featured_image: /images/social.jpg
 	<div class="content-wrap portfolio-wrap">
 	</div>
 
+<p><button class="append-button">Append new items</button></p>
+
 </section>
 
 <script>
@@ -62,6 +64,11 @@ featured_image: /images/social.jpg
 		js_list.push(item);
 
 		{% endfor %}
+
+		$('.append-button').on( 'click', function() {
+		  var $elems = $( js_list );
+		  $content-wrap.append( $elems ).masonry( 'appended', $elems );
+		});
 
 	console.log(js_list);
 </script>
