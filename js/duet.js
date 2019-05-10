@@ -172,20 +172,6 @@
 
 	function pageFunctions() {
 
-		// set hero video dimensions
-		var hero = document.getElementById("herovideo");
-		console.log(hero);
-		if (hero) {
-		hero.addEventListener( "loadedmetadata", function (e) {
-			hero.height = hero.videoHeight;
-			hero.width = hero.videoWidth;
-			console.log(hero.videoWidth);
-		});
-		}
-		else {
-			console.log("no hero");
-		}
-
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Show content
 
 		// Wait until first image has loaded

@@ -31,7 +31,7 @@ layout: default
 				</div>
 
 			</div>
-			<video id="herovideo" width="16" height="9" preload="auto" data-overscale="false" poster="{{page.hero_image}}">
+			<video id="herovideo" width="16" height="9" preload="auto" onloadedmetadata="hero_set_dim()" data-overscale="false" poster="{{page.hero_image}}">
 			  <source type="video/mp4" src="{{page.hero_video_hd}}" data-quality="hd"/>
 			  <source type="video/mp4" src="{{page.hero_video_sd}}" />
 			</video>
@@ -47,3 +47,11 @@ layout: default
 	{{ page.content }}
 
 </section>
+
+	<script>
+		// set hero video dimensions
+		function hero_set_dim() {
+			console.log("meta_data_loaded");
+			console.log(video);
+		}
+	</script>
