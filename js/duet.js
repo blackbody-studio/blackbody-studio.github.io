@@ -172,6 +172,12 @@
 
 	function pageFunctions() {
 
+		// set hero video dimensions
+		var hero = document.getElementById("herovideo");
+		hero.addEventListener( "loadedmetadata", function (e) {
+			hero.height = hero.videoHeight;
+			hero.width = hero.videoWidth;
+		});
 
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Show content
 
