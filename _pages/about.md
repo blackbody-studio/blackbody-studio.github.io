@@ -6,4 +6,4 @@ hero_image: /images/demo/demo-landscape.jpg
 ---
 
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/calgary.jpg)
