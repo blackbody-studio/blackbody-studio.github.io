@@ -181,6 +181,9 @@
 			console.log(hero.videoWidth);
 		});
 		}
+		else {
+			console.log("no hero");
+		}
 
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Show content
 
