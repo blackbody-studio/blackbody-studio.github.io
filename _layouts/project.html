@@ -51,7 +51,9 @@ layout: default
 	<script>
 		// set hero video dimensions
 		function hero_set_dim() {
-			console.log("meta_data_loaded");
-			console.log(video);
+			var hero = document.getElementById("herovideo");
+			hero.height = hero.videoHeight;
+			hero.width = hero.videoWidth;
+			console.log(hero.videoWidth);
 		}
 	</script>
