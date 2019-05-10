@@ -236,6 +236,9 @@
 	color: white;
 }
 
-button {
-  font-size: 20px;
+.hero_wrap {
+	position: relative;
+	padding: $grid-spacing/2;
+	float: left;
+	width: 90%;
 }

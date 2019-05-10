@@ -10,21 +10,60 @@ layout: default
 		<h1>{{ page.title }}</h1>
 		<p style="font-family: Georgia; font-style: italic; margin-bottom: 30px;">{{ page.subtitle }}</p>
 		</center>
+	
 
-	<a class="afterglow" href="#herovideo"> 
-		<img src="{{page.hero_image}}">
-	</a>
-	<video id="herovideo" width="1280" height="720" data-overscale="false" poster="{{page.hero_image}}">
-	  <source type="video/mp4" src="{{page.hero_video_hd}}" data-quality="hd"/>
-	  <source type="video/mp4" src="{{page.hero_video_sd}}" />
-	</video>
+		<div class="hero_wrap">
+
+		<a class="afterglow" href="#herovideo"> 
+			<img src="{{page.hero_image}}">
+		</a>
+
+		<video id="herovideo" width="1280" height="720" data-overscale="false" poster="{{page.hero_image}}">
+		  <source type="video/mp4" src="{{page.hero_video_hd}}" data-quality="hd"/>
+		  <source type="video/mp4" src="{{page.hero_video_sd}}" />
+		</video>
+
+<!-- 		<div class="portfolio-item__image">
+			<img src="{{ project.hero_image  }}" alt="{{ project.title }}">
+		</div> -->
+
+		<div class="portfolio-item__content">
+			<div class="portfolio-item__info">
+				<h2 class="portfolio-item__title">{{ page.title }}</h2>
+				<p class="portfolio-item__subtitle">{{ page.subtitle }}</p>
+			</div>
+		</div>
+		</div>
+
 	</div>
 
 </section>
 
 <section class="single">
 
-
 	{{ page.content }}
 
 </section>
+
+<!-- 		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ project.url }}">
+
+				<div class="portfolio-item__image">
+					<img src="{{ project.hero_image  }}" alt="{{ project.title }}">
+				</div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ project.title }}</h2>
+						{% if project.type == 'Experimental' %}
+						<p class="portfolio-item__subtitle">{{ project.type }}</p>
+						{% else %}
+						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+						{% endif %}
+					</div>
+				</div>
+
+			</a>
+
+		</div> -->
