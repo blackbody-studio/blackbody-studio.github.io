@@ -38,6 +38,10 @@ layout: default
 		{% else %}
 			<img src="{{page.hero_image}}">
 		{% endif %}
+		{% if page.type == 'Experimental' %}
+		<!-- <p style="font-family: Georgia; font-style: italic;margin-top:0px; margin-bottom:20px">{{ page.subtitle }}</p> -->
+		<p> {{ page.date | date: '%B %d, %Y' }} </p>
+		{% endif %}
 	</div>
 
 </section>
