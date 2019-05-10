@@ -174,6 +174,7 @@
 
 		// set hero video dimensions
 		var hero = document.getElementById("herovideo");
+		console.log(hero);
 		if (hero) {
 		hero.addEventListener( "loadedmetadata", function (e) {
 			hero.height = hero.videoHeight;
