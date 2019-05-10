@@ -15,6 +15,11 @@
 // @codekit-prepend "/plugins/fluidbox.js"
 // @codekit-prepend "/plugins/owl.js"
 // @codekit-prepend "/plugins/waypoints.js"
+	function hero_set_dim() {
+		var hero = document.getElementById("herovideo");
+		hero.height = hero.videoHeight;
+		hero.width = hero.videoWidth;
+	}
 
 
 
