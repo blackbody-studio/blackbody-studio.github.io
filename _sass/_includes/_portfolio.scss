@@ -82,6 +82,7 @@
 }
 
 .portfolio-item__title {
+	margin-top:0px;
 	color: $overlay-text-color;
 	font-size: $grid-item-title-small;
 	font-weight: $grid-item-title-weight;
@@ -97,6 +98,22 @@
 }
 
 .portfolio-item__subtitle {
+	margin-top: 5px;
+	color: rgba($overlay-text-color, 0.7);
+	font-size: $grid-item-subtitle-small;
+	font-weight: $grid-item-subtitle-weight;
+	letter-spacing: $grid-item-subtitle-spacing;
+
+	@include mq(tabletp) {
+		font-size: $grid-item-subtitle-medium;
+	}
+
+	@include mq(laptop) {
+		font-size: $grid-item-subtitle-large;
+	}
+}
+
+.portfolio-item__type {
 	margin-top: 5px;
 	color: rgba($overlay-text-color, 0.7);
 	font-family: Georgia;
