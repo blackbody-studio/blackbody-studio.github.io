@@ -178,6 +178,7 @@
 		hero.addEventListener( "loadedmetadata", function (e) {
 			hero.height = hero.videoHeight;
 			hero.width = hero.videoWidth;
+			console.log(hero.videoWidth);
 		});
 		}
 
