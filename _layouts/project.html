@@ -12,44 +12,35 @@ layout: default
 		</center>
 
 		{% if page.hero_video_hd or page.hero_video_sd %}
-	<div class="content-wrap portfolio-wrap">
+			<div class="content-wrap portfolio-wrap">
 
-		<div class="portfolio-item portfolio-item-100">
+				<div class="portfolio-item portfolio-item-100">
 
-			<a class="afterglow portfolio-item__link" href="#herovideo">
+				<a class="afterglow portfolio-item__link" href="#herovideo">
 
-				<div class="portfolio-item__image">
-					<img src="{{page.hero_image}}">
+					<div class="portfolio-item__image">
+						<img src="{{page.hero_image}}">
+					</div>
+
+					<div class="hero-overlay">
+						<img style="width:30px" src="/images/play-icon.png">
+					</div>
+
+				</a>
+
 				</div>
 
-				<div class="hero-overlay">
-					<img style="width:30px" src="/images/play-icon.png">
-				</div>
-
-			</a>
-
-		</div>
-
-	</div>
-				<video id="herovideo" width="1280" height="720" data-overscale="false" poster="{{page.hero_image}}">
-				  <source type="video/mp4" src="{{page.hero_video_hd}}" data-quality="hd"/>
-				  <source type="video/mp4" src="{{page.hero_video_sd}}" />
-				</video>
-{% else %}
-
-					<img src="{{page.hero_image}}">
-
-				{% endif %}
-
-
-	
+			</div>
+			<video id="herovideo" width="1280" height="120" data-overscale="false" poster="{{page.hero_image}}">
+			  <source type="video/mp4" src="{{page.hero_video_hd}}" data-quality="hd"/>
+			  <source type="video/mp4" src="{{page.hero_video_sd}}" />
+			</video>
+		{% else %}
+			<img src="{{page.hero_image}}">
+		{% endif %}
 	</div>
 
 </section>
-
-<!-- <section class="portfolio">
-
-</section> -->
 
 <section class="single">
 
