@@ -1,17 +1,13 @@
 ---
-title: 'BIG CLIENT'
-subtitle: 'Project Title'
-date: 2018-06-30 00:00:00
-description: This page is a demo that shows everything you can do inside portfolio and blog posts.
-hero_image: '/images/demo/demo-square.jpg'
-type: 'Commercial'
+title: 'PRODUCER NAME'
+subtitle: 'Title'
+date: 2019-02-05
+description: This is template project that has examples of all the features I need for a short film project.
+hero_image: 'https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg'
+hero_video_hd: 'https://dl.dropboxusercontent.com/s/50xxtlw1mcey9d0/afterglow_local_hd.mp4'
+hero_video_sd: 'https://dl.dropboxusercontent.com/s/gznqdinn08zpu9w/afterglow_local.mp4'
+type: 'Short'
 ---
-
-<a class="afterglow" href="#dbvideo"> ![](https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg) </a>
-<video id="dbvideo" width="1280" height="720" data-overscale="false" poster="https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg">
-  <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/50xxtlw1mcey9d0/afterglow_local_hd.mp4" data-quality="hd"/>
-  <source type="video/mp4" src="https://dl.dropboxusercontent.com/s/gznqdinn08zpu9w/afterglow_local.mp4" />
-</video>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
