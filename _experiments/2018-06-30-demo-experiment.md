@@ -3,7 +3,7 @@ title: 'DIGITAL HUMAN'
 subtitle: 'Geometric detail at many scales'
 date: 2018-06-30
 description: This page is a experimental project template demonstrating all of the available features.
-hero_image: '/images/demo/demo-square.jpg'
+hero_image: 'https://dl.dropboxusercontent.com/s/r4nmuimv3uglqvw/hadi-karimi-niet-1.jpg'
 type: 'Experimental'
 ---
 
@@ -37,10 +37,10 @@ You can throw in some horizontal rules too:
 #### Image galleries
 
 <div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="https://dl.dropboxusercontent.com/s/rcw2vh89nj17l2j/2_post_crack.png">
-	<img src="/images/demo/demo-landscape-2.jpg">
+    <img src="/images/demo/demo-portrait.jpg">
+    <img src="/images/demo/demo-landscape.jpg">
+    <img src="https://dl.dropboxusercontent.com/s/rcw2vh89nj17l2j/2_post_crack.png">
+    <img src="/images/demo/demo-landscape-2.jpg">
 </div>
 
 ---

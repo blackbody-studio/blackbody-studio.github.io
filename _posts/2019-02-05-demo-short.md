@@ -1,11 +1,11 @@
 ---
-title: 'PRODUCER NAME'
-subtitle: 'Title'
+title: 'BLENDER FOUNDATION'
+subtitle: 'Spring'
 date: 2019-02-05
 description: This is template project that has examples of all the features I need for a short film project.
-hero_image: 'https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg'
-hero_video_hd: 'https://dl.dropboxusercontent.com/s/50xxtlw1mcey9d0/afterglow_local_hd.mp4'
-hero_video_sd: 'https://dl.dropboxusercontent.com/s/gznqdinn08zpu9w/afterglow_local.mp4'
+hero_image: 'https://dl.dropboxusercontent.com/s/55i6kmq3lhab93y/blender.jpg'
+hero_video_hd: 'https://dl.dropboxusercontent.com/s/4h8cb5tnbz1ycr1/spring_hd.mp4'
+hero_video_sd: 'https://dl.dropboxusercontent.com/s/s5jxur70oaoi6cc/spring_sd.mp4'
 type: 'Short'
 ---
 

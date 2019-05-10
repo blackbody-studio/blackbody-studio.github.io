@@ -1,11 +1,9 @@
 ---
-title: 'ARTIST NAME'
-subtitle: 'Song Title'
+title: 'BEAKERHEAD'
+subtitle: 'Stop Looking at My Home'
 date: 2018-08-15
 description: This is template project that has examples of all the features I need for a music video project.
-hero_image: 'https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg'
-hero_video_hd: 'https://dl.dropboxusercontent.com/s/50xxtlw1mcey9d0/afterglow_local_hd.mp4'
-hero_video_sd: 'https://dl.dropboxusercontent.com/s/gznqdinn08zpu9w/afterglow_local.mp4'
+hero_image: 'https://dl.dropboxusercontent.com/s/000yvl86xtpbo3h/dayal-uriarte-toma-09-comp.jpg'
 type: 'Music'
 ---
 
