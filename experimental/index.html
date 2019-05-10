@@ -19,20 +19,20 @@ hero_image: /images/social.jpg
 
 	<div class="content-wrap blog-wrap">
 
-		{% for post in site.experiments reversed limit: 9 %}
+		{% for experiment in site.experiments reversed limit: 9 %}
 
 		<article class="blog-post">
 
 			<a class="blog-post__link" href="{{ post.url }}">
 
 				<div class="blog-post__image">
-					<img src="{{ post.hero_image  }}" alt="{{ post.title }}">
+					<img src="{{ experiment.hero_image  }}" alt="{{ experiment.title }}">
 				</div>
 
 				<div class="blog-post__content">
 					<div class="blog-post__info">
-						<h2 class="blog-post__title">{{ post.title }}</h2>
-						<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
+						<h2 class="blog-post__title">{{ experiment.title }}</h2>
+						<p class="blog-post__subtitle">{{ experiment.date | date: '%B %d, %Y' }}</p>
 					</div>
 				</div>
 
