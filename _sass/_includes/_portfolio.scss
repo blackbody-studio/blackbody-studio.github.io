@@ -52,10 +52,6 @@
 }
 
 .hero-overlay {
-	color: #ffffff;
-}
-
-.portfolio-item__content {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -64,7 +60,17 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: rgba($overlay-background-color, $overlay-opacity);
+}
+
+.portfolio-item__content {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	bottom: 10px;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
 	opacity: 0;
 	visibility: hidden;
