@@ -1,6 +1,6 @@
 ---
 title: 'AFTERGLOW'
-subtitle: 'An Easy Way to Host and Play Videos'
+subtitle: 'An Easy Way to Host and Play Video'
 date: 2018-06-30
 description: This is template project that has examples of all the features I need for a commercial project.
 hero_image: 'https://dl.dropboxusercontent.com/s/lecj4bv4fkkf2z3/demo-landscape.jpg'
